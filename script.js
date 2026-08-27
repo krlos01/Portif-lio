@@ -15,7 +15,7 @@ function enviarWhatsapp(servicoEscolhido) {
     const mensagemFormatada = encodeURIComponent(mensagem);
     
     // Cria o link final para a API do WhatsApp
-    const linkWhatsapp = `https://we.me{NUMERO_WHATSAPP}&text=${mensagemFormatada}`;
+    const linkWhatsapp = `https://wa.me{NUMERO_WHATSAPP}&text=${mensagemFormatada}`;
     
     // Abre a conversa em uma nova aba
     window.open(linkWhatsapp, '_blank');
