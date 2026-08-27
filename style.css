@@ -62,9 +62,10 @@ body {
     padding: 12px 30px;
     font-size: 1rem;
     font-weight: bold;
-    border-radius: 5px;
+    border-radius: 15px;
     cursor: pointer;
     transition: background 0.3s;
+    
 }
 
 .btn-whatsapp:hover, .btn-card:hover {
